@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# React Fundamentals Blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple blog application built with **React** to learn and practice the fundamentals of modern React development.
 
-## Available Scripts
+> **Note:** This project was built by following the **Full Modern React Tutorial** playlist by **Net Ninja** for educational purposes. It helped me gain a solid understanding of React fundamentals and modern development practices.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+* Display a list of blog posts
+* View individual blog details
+* Create new blog posts
+* Delete blog posts
+* Client-side routing with React Router
+* Data fetching with a custom `useFetch` hook
+* Loading and error handling
+* Mock REST API using JSON Server
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* React
+* JavaScript (ES6+)
+* React Router
+* JSON Server
+* HTML5
+* CSS3
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Clone the repository
 
-### `npm run build`
+```bash
+git clone https://github.com/zoheyrbouzekri/react-fundamentals-blog.git
+cd react-fundamentals-blog
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Install dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Start the JSON Server
 
-### `npm run eject`
+```bash
+npx json-server --watch data/db.json --port 8000
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Start the development server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Open your browser and navigate to:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```text
+http://localhost:3000
+```
 
-## Learn More
+## Learning Outcomes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Throughout this project, I learned and practiced:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* React Components
+* JSX
+* Props
+* State Management with `useState`
+* Side Effects with `useEffect`
+* Custom Hooks
+* React Router
+* CRUD Operations
+* Fetch API
+* Conditional Rendering
+* Component Composition
+* Version Control with Git
+* Managing repositories with GitHub
 
-### Code Splitting
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project was created by following the **Full Modern React Tutorial** playlist by **Net Ninja**. Many thanks to Net Ninja for providing clear, practical, and high-quality educational content.
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is intended for educational purposes.
