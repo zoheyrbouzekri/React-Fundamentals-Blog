@@ -4,13 +4,38 @@
       "title": "My First Blog",
       "body": "Lorem ipsum...",
       "author": "mario",
-      "id": 1
+      "id": "1"
     },
     {
       "title": "Opening Party!",
       "body": "Lorem ipsum...",
       "author": "yoshi",
-      "id": 2
+      "id": "2"
+    },
+    {
+      "title": "ZOBLOG",
+      "body": "ZO BLOG MA BRO",
+      "author": "mario",
+      "id": "bI8QBhxUIAU"
+    },
+    {
+      "title": "TEST",
+      "body": "TEST",
+      "author": "mario",
+      "id": "QvQRyH2ciQA"
+    },
+    {
+      "title": "z",
+      "body": "z",
+      "author": "mario",
+      "id": "Xjzdm_q2UWI"
+    },
+    {
+      "title": "zd",
+      "body": "fedf",
+      "author": "mario",
+      "id": "NyE3-Xb9T-o"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
