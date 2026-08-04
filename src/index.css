@@ -104,3 +104,13 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* Styles pour le bouton de suppression dans BlogDetails */
+.blog-details button {
+  background: #f1356d; /* Couleur de la charte graphique de l'application */
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
