@@ -1,8 +1,8 @@
 {
   "blogs": [
     {
-      "title": "REACT MONEY AP",
-      "body": "MAKE MONEY AND CODE",
+      "title": "Getting Started with React",
+      "body": "React is a JavaScript library for building fast and interactive user interfaces using reusable components.",
       "author": "mario",
       "id": "VGUBGxa6rco"
     }
